@@ -1,4 +1,8 @@
 replace --> Use s.replace('a', 'b') to replace all of the unnecessary part into other format
 
-stack -->
+stack --> Usually when parsing strings and there are nested parantheses, use stack, store everything except ) into the stack. When meet a ), start to pop elem from stack.
+394
+https://leetcode.com/problems/decode-string/
+
+
 
