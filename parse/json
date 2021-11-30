@@ -1,0 +1,9 @@
+import json
+
+python --> json
+  dump --> two parameters
+  dumps --> one parameter, the python data
+  
+json --> python
+  load --> two parameters
+  loads --> one parameter, the json data
