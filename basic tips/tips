@@ -1,0 +1,1 @@
+When I have to pop a list to grab the last few elements, but still want them not reverse --> res = [li.pop()] + res
