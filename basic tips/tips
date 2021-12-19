@@ -1,6 +1,10 @@
-When I have to pop a list to grab the last few elements, but don't want them reverse --> res = [li.pop()] + res
+When I have to pop a list to grab the last few elements, but don't want them to reverse --> res = [li.pop()] + res
 
 li.append(elem) is faster than st += elem
 
 set() is faster than list when I don't need the order, for example when I just want to check if one element is in
 
+When there are multiple conditions in if-else, make sure put the lowest-pass-rate conditions first, the highest-time-consumption conditions last, if the order doesn't matter.
+
+i>>1 --> i*2
+i<<1 --> i//2
