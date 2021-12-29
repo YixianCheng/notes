@@ -8,3 +8,16 @@ When there are multiple conditions in if-else, make sure put the lowest-pass-rat
 
 i>>1 --> i*2
 i<<1 --> i//2
+
+How to do recursion:
+1. self.res = 0
+2. def recur(things I need):
+    3.Basic situations: do some operations on self.res
+      return
+      
+    4.left = recur(updated things I need)
+      right = recur(updated things I need)
+    5.return left+right or calculations like this
+      
+6. recur(start situations)
+7. return self.res
