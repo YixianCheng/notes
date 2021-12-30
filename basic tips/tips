@@ -21,3 +21,5 @@ How to do recursion:
       
 6. recur(start situations)
 7. return self.res
+
+When I want to sort a list but it requires O(n) time complexity, and I don't mind duplicates will be dismissed: Use set()
